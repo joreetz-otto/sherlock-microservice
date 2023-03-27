@@ -14,3 +14,11 @@ Contains following Go packages:
 | [envflags](pkg/envflags) | Extends flags with Environment Variable handling. |
 | [gcp](pkg/gcp)           | Combines all Google Cloud service that we use everywhere. |
 | [gke](pkg/gke)           | Ease working with Google Kubernetes Engine. |
+
+Contains following Terraform modules:
+
+| Module                                    | Description |
+| ---                                       | ---         |
+| [service_cluster](tf/service_cluster)     | Module for creating GKE Clusters for Services |
+| [service_container](tf/service_container) | Module for building and uploading Container images for our Services |
+| [service_namespace](tf/service_namespace) | Module for creating and configuring Kubernetes Namespaces for our Services |
